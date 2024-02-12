@@ -1,0 +1,23 @@
+.footer {
+  background-color: #3f51b5;
+  width: 100%;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_text {
+  padding: 16px;
+  margin: 0 auto;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #a2aee8;
+  background-color: #3f51b5;
+  font-size: 24px;
+  font-weight: bold;
+}

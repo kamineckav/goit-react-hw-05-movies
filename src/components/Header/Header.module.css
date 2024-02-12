@@ -1,0 +1,27 @@
+.header{
+  padding: 24px 48px ;
+  background-color: #3f51b5;
+}
+
+/* .container {
+} */
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+
+.item {
+  text-decoration: none;
+  padding: 10px 15px;
+  display: flex;
+  color: #a2aee8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.item:global(.active) {
+  color: #fff;
+}
